@@ -45,7 +45,7 @@ class ubuntumongo {
 class nodejs {
 
   exec { 'get the repo for nodejs':
-    command => '/usr/bin/sudo /usr/bin/curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -',
+    command => '/usr/bin/sudo /usr/bin/curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -',
   }
 
   package { 'nodejs':
@@ -73,4 +73,4 @@ class node7mong32 {
 include ubuntumongo
 include nodejs
 include others
-include node7mong32
+include node8mong32
