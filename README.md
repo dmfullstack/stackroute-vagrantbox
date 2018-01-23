@@ -1,4 +1,4 @@
-# Vagrant setup for StackRoute Online Students
+# Vagrant setup for StackRoute
 
 > git clone https://github.com/stackroute/stackroute-vagrantbox.git
 
